@@ -13,6 +13,5 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
-  deleted_elements = array.pop[2]
-  return deleted_elements
+  array.pop(2)
 end
