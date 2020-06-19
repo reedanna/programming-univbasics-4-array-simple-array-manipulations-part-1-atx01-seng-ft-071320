@@ -1,4 +1,4 @@
-require 'pry'
+
 
 def using_push(array, string)
   array.push(string)
@@ -14,7 +14,5 @@ end
 
 def pop_with_args(array)
   deleted_elements = array.pop[2]
-  pry.binding
+  return deleted_elements
 end
-
-pop_with_args([1, 2, 3])
